@@ -26,7 +26,6 @@ namespace cs09_nullcondition
             // 위의 아홉줄을 모두 축약시킴
             int? bar = myfoo?.member;
 
-            Console.WriteLine(bar);
         }
     }
 
