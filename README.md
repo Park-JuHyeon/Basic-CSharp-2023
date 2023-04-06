@@ -14,7 +14,9 @@
 - Win App
 	- WinForms vs WPF
 	- WinForms 기초
-
+<img
+src="https://raw.githubusercontent.com/Park-JuHyeon/Basic-CSharp-2023/main/image/FontChangeApp.png"
+width = "700">
 
 ## 3일차
 - C# 기본
@@ -25,4 +27,5 @@
 	- 리스트뷰, 데이터 그리드 추가학습 필요
 	
 <img
-src="https://raw.githubusercontent.com/Park-JuHyeon/Basic-CSharp-2023/main/image/Multiple-Winapp.png" width = "700">
+src="https://raw.githubusercontent.com/Park-JuHyeon/Basic-CSharp-2023/main/image/Multiple-Winapp.png" 
+width = "700">
