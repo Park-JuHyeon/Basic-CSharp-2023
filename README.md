@@ -15,6 +15,7 @@
 	- WinForms vs WPF
 	- WinForms 기초
 
+<<<<<<< HEAD
 ![폰트체인지 앱 화면](https://github.com/Park-JuHyeon/Basic-CSharp-2023/image/FontChangeApp.png?raw=true)
 
 ## 3일차
@@ -25,3 +26,6 @@
 	- WinForms 컨트롤
 	- 리스트뷰, 데이터 그리드 추가학습 필요
 	
+=======
+<img src="https://raw.githubusercontent.com/Park-JuHyeon/Basic-CSharp-2023/image/FontChangeApp.png" width = "700" />
+>>>>>>> eeaa4d68476554ea44141d87dabd0afac2ac3286
