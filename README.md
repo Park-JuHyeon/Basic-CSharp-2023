@@ -9,10 +9,19 @@
 	
 ## 2일차
 - C# 기본
-	- 기본 문법
-	
+	- 기본 문법(변수, 메서드, 연산자, 제어)
+		
 - Win App
 	- WinForms vs WPF
 	- WinForms 기초
 
 ![폰트체인지 앱 화면](https://github.com/Park-JuHyeon/Basic-CSharp-2023/image/FontChangeApp.png?raw=true)
+
+## 3일차
+- C# 기본
+	- 클래스
+
+- WIN App
+	- WinForms 컨트롤
+	- 리스트뷰, 데이터 그리드 추가학습 필요
+	
