@@ -14,9 +14,10 @@
 - Win App
 	- WinForms vs WPF
 	- WinForms 기초
+	
 <img
 src="https://raw.githubusercontent.com/Park-JuHyeon/Basic-CSharp-2023/main/image/FontChangeApp.png"
-width = "700">
+width = "400">
 
 ## 3일차
 - C# 기본
