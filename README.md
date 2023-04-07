@@ -40,6 +40,10 @@ width = "700">
 	- WinForms 컨트롤 마무리
 	- WinForms 파일복사 앱
 	- 로그인 앱 실습
+	
+<img
+src="https://raw.githubusercontent.com/Park-JuHyeon/Basic-CSharp-2023/main/image/FileCopy.png"
+width = "700">
 
 ## 5일차
 - C# 기본
