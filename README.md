@@ -47,7 +47,19 @@ width = "700">
 
 ## 5일차
 - C# 기본
-
+	- 인터페이스, 추상클래스
+	- 프로퍼티
+	
 - Win App
 	- WinForms 디자인 오류시 해결방법
 	- Window 탐색기 만들기
+	
+5일차 윈도우 탐색기 만들기
+
+<img
+src="https://raw.githubusercontent.com/Park-JuHyeon/Basic-CSharp-2023/main/image/FileFinder.png"
+width = "700">
+	
+
+	
+	
