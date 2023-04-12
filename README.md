@@ -81,9 +81,23 @@ width = "700">
 	- DB 핸들링
 		
 ## 7일차
+- C# 기본
+	- 대리자, 이벤트
+	- 람다식
+	- 애트리뷰트
+	- 파일핸들링
+	- 더 공부해야할 내용(LINQ, 리플렉션, dynamic)
+
+- Win App
+	- DB 핸들링
+	- SDI vs MDI 비교
+	
+## 8일차
 
 	- BookRentalShop DB 사용 WinForms 앱개발
-	- 실습 예제
+	- 실습예제
+
+
 	
 
 	
