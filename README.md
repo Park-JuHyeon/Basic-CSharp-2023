@@ -103,7 +103,7 @@ width = "700">
 
 <img
 src="https://raw.githubusercontent.com/Park-JuHyeon/Basic-CSharp-2023/main/image/SimpleMemo.png"
-width = "700">	
+width = "600">	
 
 
 	
