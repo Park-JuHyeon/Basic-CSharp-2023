@@ -69,9 +69,9 @@ namespace wf13_bookrentalshop
 
             try
             {
-                string connectionString = "Server = localhost;Port=3306;Database=bookrentalshop;Uid=root;Pwd=12345";
+                //string connectionString = "Server = localhost;Port=3306;Database=bookrentalshop;Uid=root;Pwd=12345";
                 // DB처리
-                using (MySqlConnection conn = new MySqlConnection(connectionString))
+                using (MySqlConnection conn = new MySqlConnection(Helpers.Commons.ConnString))
                 {
                     conn.Open();
 
@@ -126,6 +126,11 @@ namespace wf13_bookrentalshop
             {
                 TxtPassword.Focus();
             }
+        }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

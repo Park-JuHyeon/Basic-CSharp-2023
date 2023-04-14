@@ -12,6 +12,12 @@ namespace wf13_bookrentalshop
 {
     public partial class FrmMain : Form
     {
+        #region < 각 화면 폼 >
+        FrmGenre frmGenre = null;   // 책장르관리 객체변수
+
+
+        #endregion
+
         #region < 생성자 >
         private int childFormNumber = 0;
         #endregion
@@ -21,6 +27,7 @@ namespace wf13_bookrentalshop
         private void FrmMain_Load(object sender, EventArgs e)
         {
             FrmLogin frm = new FrmLogin();
+            frm.StartPosition = FormStartPosition.CenterScreen;
             frm.ShowDialog();  
         }
 
@@ -36,10 +43,11 @@ namespace wf13_bookrentalshop
 
         private void MniGenre_Click(object sender, EventArgs e)
         {
-            FrmGenre frm = new FrmGenre();
-            frm.TopLevel = false;
-            this.Controls.Add(frm);
-            frm.Show();
+            //FrmGenre frm = new FrmGenre();
+            //frm.TopLevel = false;
+            //this.Controls.Add(frm);
+            //frm.Show();
+            frmGenre = ShowActiveForm(frmGenre, typeof(FrmGenre)) as FrmGenre;
         }
 
         private void MniInfo_Click(object sender, EventArgs e)
@@ -70,6 +78,38 @@ namespace wf13_bookrentalshop
             {
                 e.Cancel = true;
             }
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private Form ShowActiveForm(Form form, Type type)
+        {
+            if (form == null)       // 한번도 자식창을 안열었으면
+            {
+                form = (Form)Activator.CreateInstance(type);    // 리플렉션으로 타입에 맞는 창을 새로 생성
+                form.MdiParent = this;  // FrmMain이 MDI 부모
+                form.WindowState = FormWindowState.Normal;
+                form.Show();
+            }
+            else
+            {
+                if (form.IsDisposed)    // 한번 닫혔다.
+                {
+                    form = (Form)Activator.CreateInstance(type);    // 리플렉션으로 타입에 맞는 창을 새로 생성
+                    form.MdiParent = this;  // FrmMain이 MDI 부모
+                    form.WindowState = FormWindowState.Normal;
+                    form.Show();
+                }
+                else    // 창이 열려있으면
+                {
+                    form.Activate();    // 화면이 있으면 그 화면을 활성화
+                }
+            }
+
+            return form;
         }
     }
 }
