@@ -124,7 +124,7 @@ width = "600">
 
 <img
 src="https://raw.githubusercontent.com/Park-JuHyeon/Basic-CSharp-2023/main/image/BookrentalShop_Login.png"
-width = "600">
+width = "250">
 
 <img
 src="https://raw.githubusercontent.com/Park-JuHyeon/Basic-CSharp-2023/main/image/BookrentalShop_Genre.png"
