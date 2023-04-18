@@ -120,6 +120,20 @@ width = "600">
 	
 - 코딩 테스트
 
+- BookRentalShop 완료
+
+<img
+src="https://raw.githubusercontent.com/Park-JuHyeon/Basic-CSharp-2023/main/image/BookrentalShop_Login.png"
+width = "600">
+
+<img
+src="https://raw.githubusercontent.com/Park-JuHyeon/Basic-CSharp-2023/main/image/BookrentalShop_Genre.png"
+width = "600">
+
+<img
+src="https://raw.githubusercontent.com/Park-JuHyeon/Basic-CSharp-2023/main/image/BookrentalShop_Information.png"
+width = "600">
+
 	
 
 	
