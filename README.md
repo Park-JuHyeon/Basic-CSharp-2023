@@ -135,7 +135,7 @@ src="https://raw.githubusercontent.com/Park-JuHyeon/Basic-CSharp-2023/main/image
 width = "600">
 
 <img
-src="https://raw.githubusercontent.com/Park-JuHyeon/Basic-CSharp-2023/main/image/bookrentalShop.jpg"
+src="https://raw.githubusercontent.com/Park-JuHyeon/Basic-CSharp-2023/main/image/bookrentalshop.gif"
 width = "600">
 
 	
